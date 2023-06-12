@@ -9,10 +9,10 @@ public class Controller {
 
     Implementation i = new Implementation();
 
-    @RequestMapping("/ouncesToGram")
+    @RequestMapping("/stoneToKilogram")
 
-    public double ouncesToGram(@RequestParam double oz){
-        return i.ouncesToGram(oz);
+    public double ouncesToGram(@RequestParam double st){
+        return i.stoneToKilogram(st);
     }
 
 

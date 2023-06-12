@@ -11,11 +11,11 @@ class ImperialApplicationTests {
     Implementation sut = new Implementation();
 
     @Test
-    public void ouncesToGram() {
+    public void stoneToKilogram() {
 
-        var result = sut.ouncesToGram(1);
+        var result = sut.stoneToKilogram(1);
 
-        var expected = 28.35;
+        var expected = 6.35;
 
         assertEquals(expected, result);
     }

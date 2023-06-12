@@ -2,8 +2,8 @@ package com.example.imperial;
 
 public class Implementation {
 
-    public double ouncesToGram(double oz){
+    public double stoneToKilogram(double st){
 
-        return oz = 28.35;
+        return st * 6.35;
     }
 }
